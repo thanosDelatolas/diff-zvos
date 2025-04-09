@@ -1,0 +1,44 @@
+
+
+dataset: d17-val
+# these parameters, when set, override the dataset's default
+image_directory: null
+mask_directory: null
+subset: null
+exp_id: null
+
+propagation_params:
+  t: 100
+  ensemble_size: 4
+  temperature: 0.2
+  n_last_frames: 28
+  size_mask_neighborhood: 15
+  topk: 15
+  func: cosine
+  layer: 9
+
+prompt_learning_params:
+  lr: 0.01 
+  n_epochs: 100
+  loss: bce
+
+model: sd2.1
+
+
+datasets:
+  data_root: ./data
+
+  d17-val:
+    image_directory: DAVIS/2017/trainval/JPEGImages/480p
+    mask_directory: DAVIS/2017/trainval/Annotations/480p
+    subset: DAVIS/2017/trainval/ImageSets/2017/val.txt
+
+
+  d17-test:
+    image_directory: DAVIS/2017/test-dev/JPEGImages/480p
+    mask_directory: DAVIS/2017/test-dev/Annotations/480p
+    subset: DAVIS/2017/test-dev/ImageSets/2017/test-dev.txt
+
+  mose-val:
+    image_directory: MOSE/valid/JPEGImages
+    mask_directory: MOSE/valid/Annotations

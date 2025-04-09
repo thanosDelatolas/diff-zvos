@@ -1,0 +1,14 @@
+jupyterlab
+diffusers==0.32.2
+matplotlib
+ipympl
+triton
+opencv-python
+numpy==1.26.4
+omegaconf==2.3.0
+hydra-core==1.3.2
+pandas
+einops
+albumentations
+gdown
+transformers==4.49.0
