@@ -42,6 +42,15 @@ python scripts/download_datasets.py
 To run inference please follow [EVALUATION.md](docs/EVALUATION.md). 
 
 ### Citation
+```bibtex
+@article{delatolas2025diffzvos,
+      title={Studying Image Diffusion Features for Zero-Shot Video Object Segmentation}, 
+      author={Thanos Delatolas and Vicky Kalogeiton and Dim P. Papadopoulos},
+      year={2025},
+      journal={arXiv preprint},
+      year={2025}
+}
+```
 
 ### State-of-the-art Comparison in Zero-Shot Video Segmentation
 
