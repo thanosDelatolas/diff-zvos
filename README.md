@@ -43,12 +43,11 @@ To run inference please follow [EVALUATION.md](docs/EVALUATION.md).
 
 ### Citation
 ```bibtex
-@article{delatolas2025diffzvos,
-      title={Studying Image Diffusion Features for Zero-Shot Video Object Segmentation}, 
-      author={Thanos Delatolas and Vicky Kalogeiton and Dim P. Papadopoulos},
-      year={2025},
-      journal={arXiv preprint},
-      year={2025}
+@article{delatolas2025studying,
+  title={Studying Image Diffusion Features for Zero-Shot Video Object Segmentation},
+  author={Delatolas, Thanos and Kalogeiton, Vicky and Papadopoulos, Dim P},
+  journal={arXiv preprint arXiv:2504.05468},
+  year={2025}
 }
 ```
 
